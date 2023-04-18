@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Switch </title>
+</head>
+
+<body>
+
+    <!-- SWITCH -->
+
+    <!-- NOTE:- -->
+    <!-- when we have multiple  choices and we need output as per choice entered -->
+    <!-- જ્યારે અમારી પાસે બહુવિધ પસંદગીઓ હોય અને અમને દાખલ કરેલ પસંદગી મુજબ આઉટપુટની જરૂર હોય. -->
+
+    <!-- SYNTEX:- -->
+    <!-- Varname = value; -->
+
+    <!-- switch na body na under case hovu jaroori 6 -->
+    <!-- end case ni bajuma je pan varname nu value hoy e  rakhi sakiye -->
+    <!-- ek case patiya pachi breack rakhvu mahatva pun 6 -->
+    <!-- breack rakhsu to j kaam kare  -->
+
+
+    <!-- switch (varname) 
+         {
+            case 1: code....!
+            breack;
+
+            case hem: code....!
+            breack;
+
+            case dev: code....!
+            breack;
+
+            case 50: code....!
+            breack;
+
+            default: code....!
+         }
+
+    -->
+
+    <!-- example:- -->
+
+    <script>
+        select = 5;
+
+
+        //  switch na body na under 2 rule 6 
+        //  switch na body ma case end default lakhay ena thi to call thay
+        //  1. case 
+        //  jya aapde case lakhiye tya eni bajuma 1,2,3,4 eva number thi j call karvai sakiye  
+        //  end e number varname na value jode match thava joyiye to j call thay 
+
+        //  2. default 
+        //  jya aapde default lakhiye tya eni bajuma kayi nahi lakhavnu
+        //  defult ni bajuma kiak pan nahi lakhavanu 
+        //  jyare varname nu value case jode match na thay to default ma je call karayiye e call thay 6
+
+        // switch (select) {
+        //     default: document.write('manish')
+        //     break;
+
+        //     case 1:
+        //             document.write('Hemant')
+        //         break;
+
+        //     case 2:
+        //             document.write('devendra')
+        //         break;
+
+        //     case 3:
+        //             document.write('ganesh')
+        //         break;
+        // }
+
+        switch (select) {
+            case 1:
+                document.write('Hemant')
+                break;
+            case 2:
+                document.write('devendra')
+                break;
+            case 3:
+                document.write('ganesh')
+                break;
+            case 4:
+                document.write('manish')
+                break;
+
+            default:
+                document.write('sunny')
+
+        }
+    </script>
+
+</body>
+
+</html>
